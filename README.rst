@@ -600,6 +600,9 @@ Works Made With rumps
 `Zero - beejhuff
 <https://github.com/beejhuff/Zero/>`_
 
+`Structured OCR - rafa-rrayes
+<https://github.com/rafa-rrayes/structured-ocr/>`_
+
 Submit a pull request to add your own!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
