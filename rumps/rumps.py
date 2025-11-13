@@ -744,6 +744,12 @@ class TextFieldMenuItem(object):
         self._textfield.setBezeled_(True)
         self._textfield.setBezelStyle_(1)  # NSTextFieldRoundedBezel
         
+        # Enable horizontal scrolling
+        cell = self._textfield.cell()
+        if cell is not None:
+            cell.setScrollable_(True)
+            cell.setWraps_(False)
+
         self._textfield.setTarget_(NSApp)
         
         self._menuitem = NSMenuItem.alloc().init()
